@@ -96,7 +96,7 @@ with left_col:
 
         # Home page
         if (selected == 'Home'):
-                st.image('https://multiple-disease-prediction-system-by-team-a1.streamlit.app/~/+/media/e891546780c7ad6e43bddf2ab88433e7e243451819aa1687c78df0d6.png')
+                st.image('D:\ML_Udemy\Multiple-Disease\image1.png')
                 st.title("Welcome to the Health Prediction Web App!")
                 st.markdown(
                         '''
