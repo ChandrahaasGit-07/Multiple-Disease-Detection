@@ -82,7 +82,7 @@ with st.sidebar:
                             'Diabetes Prediction',
                             'Heart Disease Prediction'],
                             menu_icon = 'hospital-fill',
-                            icons=['person', 'activity', 'heart'],  # icons can be taken from BootStarp
+                            icons=['house', 'activity', 'heart'],  # icons can be taken from BootStarp
                               default_index = 0)   # default_index = 0 means : we are selecting the first page which is "Diabetes Prediction Page"
     
     com.iframe('https://lottie.host/embed/652e04ed-343b-4cb3-9ce8-b55da65102ee/pwpx5ClYHq.lottie',height=200) 
