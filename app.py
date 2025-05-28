@@ -96,7 +96,7 @@ with left_col:
 
         # Home page
         if (selected == 'Home'):
-                st.image('D:/ML_Udemy/Multiple-Disease/image1.png')
+                st.image('image1.png')
                 st.title("Welcome to the Health Prediction Web App!")
                 st.markdown(
                         '''
