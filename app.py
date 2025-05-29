@@ -56,14 +56,14 @@ st.markdown(
      /* Desktop (laptop) view */
     @media (min-width: 768px) {
         body {
-            background-color: #e0f7fa; /* Light blue for desktop */
+            background-color: #000000; /* Light blue for desktop */
         }
     }
 
     /* Android (mobile) view */
     @media (max-width: 767px) {
         body {
-            background-color: #fce4ec; /* Light pink for mobile */
+            background-color: #000000; /* Light pink for mobile */
         }
 
     /* Optional: Make text easier to read */
