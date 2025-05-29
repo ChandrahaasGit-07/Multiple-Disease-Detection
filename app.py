@@ -53,6 +53,19 @@ st.markdown(
         background-color: rgba(255, 255, 255, 0.9); 
      }
 
+     /* Desktop (laptop) view */
+    @media (min-width: 768px) {
+        body {
+            background-color: #e0f7fa; /* Light blue for desktop */
+        }
+    }
+
+    /* Android (mobile) view */
+    @media (max-width: 767px) {
+        body {
+            background-color: #fce4ec; /* Light pink for mobile */
+        }
+
     /* Optional: Make text easier to read */
     .css-10trblm, .css-1d391kg {
         color: #f0f8ff;
