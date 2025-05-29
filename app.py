@@ -53,18 +53,9 @@ st.markdown(
         background-color: rgba(255, 255, 255, 0.9); 
      }
 
-     /* Desktop (laptop) view */
-    @media (min-width: 768px) {
-        body {
-            color: #000000;  /* Black text on desktop */
-        }
-    }
-
-    /* Android (mobile) view */
-    @media (max-width: 767px) {
-        body {
-            color: #000000;  /* Light pink text on mobile */
-        }
+     /* Make all text black on all devices */
+    body, .css-10trblm, .css-1d391kg, .stText, p, h1, h2, h3, h4, h5, h6, span, div {
+        color: #000000 !important;
     }
 
     /* Optional: Make text easier to read */
