@@ -58,12 +58,14 @@ st.markdown(
         color: #333333 !important;
     }
 
-    /* On mobile (max-width 767px), style Streamlit buttons */
+    /* Target Streamlit primary buttons on mobile */
     @media (max-width: 767px) {
-        button[kind="primary"], button {
-            background-color: #f5f5f5 !important;  /* light ash/gray */
+        /* Streamlit buttons inside div with role="button" */
+        div.stButton > button {
+            background-color: #ffffff !important;  /* light white/gray */
             color: #000000 !important;             /* black text */
-            border: 1px solid #ccc !important;     /* subtle border */
+            border: 1px solid #ccc !important;    /* subtle border */
+            box-shadow: none !important;           /* remove shadow */
         }
     }
 
