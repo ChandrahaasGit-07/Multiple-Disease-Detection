@@ -58,6 +58,15 @@ st.markdown(
         color: #333333 !important;
     }
 
+    /* On mobile (max-width 767px), style Streamlit buttons */
+    @media (max-width: 767px) {
+        button[kind="primary"], button {
+            background-color: #f5f5f5 !important;  /* light ash/gray */
+            color: #000000 !important;             /* black text */
+            border: 1px solid #ccc !important;     /* subtle border */
+        }
+    }
+
     /* Optional: Make text easier to read */
     .css-10trblm, .css-1d391kg {
         color: #f0f8ff;
