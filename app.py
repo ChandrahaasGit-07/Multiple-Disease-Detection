@@ -55,7 +55,7 @@ st.markdown(
 
      /* Make all text black on all devices */
     body, .css-10trblm, .css-1d391kg, .stText, p, h1, h2, h3, h4, h5, h6, span, div {
-        color: #000000 !important;
+        color: #333333 !important;
     }
 
     /* Optional: Make text easier to read */
