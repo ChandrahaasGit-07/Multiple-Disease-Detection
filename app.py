@@ -56,15 +56,16 @@ st.markdown(
      /* Desktop (laptop) view */
     @media (min-width: 768px) {
         body {
-            background-color: #000000; /* Light blue for desktop */
+            color: #000000;  /* Black text on desktop */
         }
     }
 
     /* Android (mobile) view */
     @media (max-width: 767px) {
         body {
-            background-color: #000000; /* Light pink for mobile */
+            color: #000000;  /* Light pink text on mobile */
         }
+    }
 
     /* Optional: Make text easier to read */
     .css-10trblm, .css-1d391kg {
